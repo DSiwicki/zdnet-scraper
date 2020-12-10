@@ -10,12 +10,17 @@ def full_driver()
 
 ```
 
+That establish connection with Chrome and set chosen chrome_options.
+
 
 ```python 
 
 def get_topics(driver: webdriver.chrome.webdriver.WebDriver)
 
 ```
+
+That allows to list available topics (function is not neccessary to run).
+
 
 ```python
 
@@ -25,12 +30,20 @@ def get_articles_links(topic_url: str,
                       )
 ```
 
+That allows to get links (and some basic information) to articles in provided time period.
+
+
 ```python
 
 def get_articles(articles_links: list, 
                  driver: webdriver.chrome.webdriver.WebDriver
                 )
 ```
+
+That allows to get articles' texts.
+
+
+In order to scrap articles you have to provide chosen time delta and topic for **get_articles_links()** function
 
 
 
