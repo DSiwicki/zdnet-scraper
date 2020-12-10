@@ -10,16 +10,18 @@ def full_driver()
 
 ```
 
-That establish connection with Chrome and set chosen chrome_options.
+That establish connection with Chrome and set chrome_options.
 
 
 ```python 
 
-def get_topics(driver: webdriver.chrome.webdriver.WebDriver)
+def get_topics(driver: webdriver.chrome.webdriver.WebDriver
+              )
 
 ```
 
 That allows to list available topics (function is not neccessary to run).
+
 
 
 ```python
