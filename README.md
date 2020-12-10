@@ -9,3 +9,29 @@ The project include 4 functions:
 def full_driver()
 
 ```
+
+
+```python 
+
+def get_topics(driver: webdriver.chrome.webdriver.WebDriver)
+
+```
+
+```python
+
+def get_articles_links(topic_url: str, 
+                       delta, 
+                       driver: webdriver.chrome.webdriver.WebDriver
+                      )
+```
+
+```python
+
+def get_articles(articles_links: list, 
+                 driver: webdriver.chrome.webdriver.WebDriver
+                )
+```
+
+
+
+
