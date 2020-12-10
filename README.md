@@ -4,8 +4,8 @@ Scraper was created on 2018 for the purposes of my text mining project that cont
 
 The project include 4 functions:
 
-'''python 
+```python 
 
 def full_driver()
 
-'''
+```
